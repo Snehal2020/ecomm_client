@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+################  Changes for deployement ##############################
+1)   "dev": "concurrently \"npm run start\" \"npm run client\"",   server->start
+2)  create build in client
+3)  require path in server    app.use(express.static(path.join(__dirname,'./client/build')))
+4) app.get('*', function(req, res){
+    res.sendFile(path.join(__dirname,'./client/build/index.html'))
+  })
+  //git remote add origin https://github.com/Snehal2020/Ecomm.git
+
+
+  changes
+  1) create category category form

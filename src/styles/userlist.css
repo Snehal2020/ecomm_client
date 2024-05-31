@@ -1,0 +1,78 @@
+.responsive-table {
+    overflow-x: auto; /* Ensures table is scrollable on small screens */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #eee; /* A light grey background for header */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* A subtle border for each row */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-image {
+    width: 40px; /* Adjust size as necessary */
+    height: 40px;
+    border-radius: 20px; /* Circular images */
+    margin-right: 10px;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .status.active {
+    background-color: #28a745; /* Green for active status */
+  }
+  
+  .status.lost {
+    background-color: #dc3545; /* Red for lost status */
+  }
+  
+  .action-button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .action-button.edit {
+    background-color: #ffc107; /* Yellow for edit action */
+  }
+  
+  .action-button.delete {
+    background-color: #dc3545; /* Red for delete action */
+  }
+  
+  @media (max-width: 768px) {
+    th, td {
+      padding: 8px;
+    }
+  
+    .user-image {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
+  
+    .action-button {
+      padding: 3px 6px;
+    }
+  }
+  

@@ -1,13 +1,95 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+.navbar{
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 7px 6px -6px gray;
+  border-bottom:0.5px solid rgb(235, 235, 235) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* !important will overwrite the existing class */
+
+.nav-link{
+  font-weight: 460 !important;  
+  color: rgb(212, 212, 234);
+}
+.nav-link:hover{
+  color: rgb(129, 131, 173);
+}
+
+.navbar-brand{
+ padding-left: 5px;
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 2px;
+}
+
+/* ******************  Footer *********************** */
+.footer{
+  color:white;
+  padding: 15px;
+  background: rgb(12, 44, 66);
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: rgb(194, 217, 243);
+}
+ /* ******************************* page not found ******************************* */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ******************** Contact *********************** */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
 }

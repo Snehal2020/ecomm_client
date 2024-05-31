@@ -1,0 +1,64 @@
+/* Basic Styling with Pastel Colors */
+body {
+    background-color: #f3f4f6; /* Light grey background */
+    color: #606060; /* Soft black for text */
+  }
+  
+  /* Form and Button Styling */
+  .form-control {
+    background-color: #eaecef; /* Very light gray */
+    border: 1px solid #d3d3d3;
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #546278; /* Light pastel blue */
+    border-color: #b8daff;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6c8397; /* Slightly darker blue */
+    border-color: #92bbee;
+  }
+  
+  .btn-danger {
+    background-color: #988dbb; /* Light pastel red */
+    border-color: #49415c;
+    color: #f8f7f7;
+  }
+  
+  .btn-danger:hover {
+    background-color: #b3a9dc; /* Slightly darker red */
+    border-color: #614a7c;
+  }
+  
+  /* Responsive Table */
+  .table {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px 12px;
+    text-align: left;
+  }
+  
+  /* Media Queries for Responsive Adjustments */
+  @media (max-width: 768px) {
+    .w-50, .w-75 {
+      width: 100%;
+    }
+  
+    .form-control, .btn {
+      width: 100%;
+    }
+  
+    .btn {
+      margin-top: 10px; /* Spacing for small screens */
+    }
+  }
+  

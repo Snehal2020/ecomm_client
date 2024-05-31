@@ -1,0 +1,61 @@
+/* Profile.css */
+.profile-container {
+    padding: 3rem;
+    background-color: #f4f7fa; /* Light and fresh background color */
+  }
+  
+  .form-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft box shadow for depth */
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #32325d; /* Professional dark blue */
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .form-control {
+    border: 1px solid #dfe1e5; /* Soft border color */
+    border-radius: 5px; /* Rounded borders for input fields */
+    padding: 0.75rem 1rem; /* Comfortable padding inside input fields */
+  }
+  
+  .form-control:focus {
+    border-color: #6772e5; /* Highlighted border color when focused */
+    box-shadow: 0 0 0 0.2rem rgba(103, 114, 229, 0.25); /* Subtle glow on focus */
+  }
+  
+  .btn-primary {
+    background-color: #6772e5; /* Matching sophisticated blue for buttons */
+    border: none;
+    padding: 0.75rem 1.5rem; /* Slightly larger padding for buttons */
+    border-radius: 5px; /* Consistent border-radius with input fields */
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5469d4; /* Darker shade on hover for interaction feedback */
+  }
+  
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 1.25rem; /* Slightly smaller title on small screens */
+    }
+  
+    .form-container {
+      padding: 1rem;
+    }
+  }
+  
